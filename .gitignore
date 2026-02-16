@@ -1,0 +1,15 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Maven
+backend/target/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Environment / Secrets
+backend/src/main/resources/application.properties
