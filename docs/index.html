@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Store User Assignment Demo</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+
+<body>
+
+    <h2>User Registration</h2>
+
+    <form id="userForm">
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="text" id="pincode" placeholder="Pincode" required />
+
+        <div id="map"></div>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="result"></p>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
